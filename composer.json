@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.5",
-        "illuminate/hashing": "4.*"
+        "illuminate/hashing": "5.*"
     },
     "autoload": {
         "psr-0": {
