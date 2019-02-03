@@ -1,0 +1,26 @@
+{
+    "name": "hiro/laravel-hashing",
+    "description": "Custom extension of Robert Clancy's laravel 4 hasher replacement, for osu!",
+    "keywords": ["hashing", "password", "laravel"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Robert Clancy",
+            "email": "mail@robertclancy.net"
+        },
+        {
+            "name": "David Collinson",
+            "email": "hiroto@hiroto.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "illuminate/hashing": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "hiro\\Hashing": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
