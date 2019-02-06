@@ -1,8 +1,8 @@
 <?php namespace hiro\Hashing;
 
-use Illuminate\Hashing\HasherInterface;
+use Illuminate\Contracts\Hashing\Hasher;
 
-class OsuHasher implements HasherInterface {
+class OsuHasher implements Hasher {
 
 	protected $hasher;
 	protected $rounds = 12;
